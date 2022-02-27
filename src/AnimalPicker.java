@@ -9,31 +9,26 @@ public class AnimalPicker {
 		Scanner keyboard = new Scanner(System.in);
 		System.out.println("Which animal would you like to see: Dog or Cat?");
 		
-	boolean tryAgain = true;
-	
-	while(tryAgain) 
+		boolean tryAgain = true;
 		
+		while(tryAgain) 
 		{	
+			String userInput =  keyboard.nextLine();
+		
 
-		
-		
-		String userInput =  keyboard.nextLine();
-		
-			
-			
 			if (userInput.equalsIgnoreCase("cat"))
-				{
-				System.out.println("CAT ASCII ART HERE");
-				//valid = true;
-				}
+			{
+				System.out.println("\n            _       \n   ___ __ _| |_ ___ \n  / __/ _` | __/ __|\n | (_| (_| | |_\\__ \\\n  \\___\\__,_|\\__|___/  ");
+				
+			}
 			else if (userInput.equalsIgnoreCase("dog"))
-				{
-				System.out.println("Dog ASCII ART HERE");
-				//valid = true;
-				}
+			{
+				System.out.println("      _                 \n   __| | ___   __ _ ___ \n  / _` |/ _ \\ / _` / __|\n | (_| | (_) | (_| \\__ \\\n  \\__,_|\\___/ \\__, |___/\n              |___/     ");
+			
+			}
 			else
 			{
-				System.out.println("Invalid input try again");
+				System.out.println("Invalid input try again:");
 				tryAgain = true;
 			}
 		}

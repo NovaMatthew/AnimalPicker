@@ -16,8 +16,10 @@ public class AnimalPicker {
 			{
 			System.out.println("Dog ASCII ART HERE");
 			}
-
-	
+		else
+		{
+			System.out.println("Invalid input");
+		}
 		
 	}
 

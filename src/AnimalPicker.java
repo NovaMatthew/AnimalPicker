@@ -30,6 +30,10 @@ public class AnimalPicker {
 			{
 				System.out.println("   __ _     _     \n /  _(_)___| |__  \n | |_| / __| \'_ \\ \n |  _| \\__ \\ | | |\n |_| |_|___/_| |_|");
 			}
+			else if(userInput.equalsIgnoreCase("bird"))
+			{
+				System.out.println("   ___     ___\n  (o o)   (o o)\n (  V  ) (  V  ) \n/--m-m- /--m-m-");
+			}
 			else 
 			{
 				System.out.println("Invalid input try again:");
